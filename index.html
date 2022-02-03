@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Lesson 42</title>
+  </head>
+  <body>
+    <!-- <input type="text" class="myInput" placeholder="Enter text...">
+  <h2></h2> -->
+    <div class="section1">
+      <div class="container">
+        <h1>Students List</h1>
+        <div class="d-flex mb-2">
+          <input type="text" class="form-control me-2" id="firstName" placeholder="Firstname"/>
+          <input type="text" class="form-control me-2" id="lastName" placeholder="Lastname"/>
+          <input type="text" class="form-control me-2" id="userName" placeholder="Username"/>
+          <input type="text" class="form-control me-2" id="phoneNumber" placeholder="PhoneNumber"/>
+          <button class="btn btn-success addStudent">Add</button>
+          <button class="btn btn-warning editStudent" style="display: none;">Edit</button>
+        </div>
+        <table class="table table-dark table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Firstname</th>
+              <th scope="col">Lastname</th>
+              <th scope="col">Username</th>
+              <th scope="col">PhoneNumber</th>
+              <th class="text-center" scope="col">Action</th>
+            </tr>
+          </thead>
+          <tbody class="tableBody"></tbody>
+        </table>
+        <h2></h2>
+      </div>
+    </div>
+    <script src="js/jQuery.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
